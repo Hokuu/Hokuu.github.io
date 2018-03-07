@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html >
 <head>
-  <!-- Данный сайт сделан с помощью конструктора Mobirise v4.6.5, https://mobiriz.store -->
+  
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Mobirise v4.6.5, mobiriz.store">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Website Builder Description">
+  <meta name="description" content="">
   <title>Тестирование</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
@@ -22,38 +22,7 @@
   
 </head>
 <body>
-<section class="menu cid-qJrDm2tzf7" once="menu" id="menu2-32">
-
-    
-
-    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </button>
-        <div class="menu-logo">
-            <div class="navbar-brand">
-                <span class="navbar-logo">
-                    <a href="index.html">
-                        <img src="assets/images/334504-1-3179x846.jpg" alt="Mobirise" title="" style="height: 3.8rem;">
-                    </a>
-                </span>
-                
-            </div>
-        </div>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                           
-              
-            <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-danger display-4" href="page3.php">Вход</a></div>
-        </div>
-    </nav>
-</section>
-
-<section class="engine"><a href="https://mobiriz.com/">mobirise темы</a></section><section class="mbr-section content5 cid-qC5crQoBzf mbr-parallax-background" id="content5-1t">
+<section class="mbr-section content5 cid-qC5crQoBzf mbr-parallax-background" id="content5-1t">
 
     
 
@@ -71,7 +40,7 @@
     </div>
 </section>
 
-<section class="mbr-section content5 cid-qC5eLU8ole mbr-parallax-background" id="content5-1w">
+<section class="engine"><a href="https://mobiriz.store/">лендинг конструктор</a></section><section class="mbr-section content5 cid-qC5eLU8ole mbr-parallax-background" id="content5-1w">
 
     
 
@@ -98,9 +67,13 @@
 
     <div class="container align-center">
         <div class="row justify-content-md-center">
-            
- <script type="text/javascript" language="JavaScript">// <![CDATA[
- var res="131"; 
+            <div class="mbr-white col-md-10">
+
+                <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
+
+
+                  <script type="text/javascript" language="JavaScript">// <![CDATA[
+ var res="13231"; 
 function check_me()
 {
     var count=0;
@@ -111,15 +84,21 @@ if (!Q2[0].checked&&!Q2[1].checked&&!Q2[2].checked)
 {count+=1};  
 if (!Q3[0].checked&&!Q3[1].checked&&!Q3[2].checked)  
 {count+=1};  
+if (!Q4[0].checked&&!Q4[1].checked&&!Q4[2].checked)  
+{count+=1};  
+if (!Q5[0].checked&&!Q5[1].checked&&!Q5[2].checked)  
+{count+=1};  
 if (count>0) alert("Вы выполнили не все задания. Проверьте себя!")    
         else answer();
     }
 } 
  
-function control(k, f1,f2,f3) {
+function control(k, f1,f2,f3,f4,f5) {
 if (k==1&&f1.checked) return true;
 if (k==2&&f2.checked) return true;
 if (k==3&&f3.checked) return true;
+if (k==4&&f4.checked) return true;
+if (k==5&&f5.checked) return true;
 return false;
 }
 
@@ -129,6 +108,8 @@ answ="";
     answ+=control(res.charAt(0) ,test.Q1[0],test.Q1[1],test.Q1[2])?"1":"0";
 answ+=control(res.charAt(1) ,test.Q2[0],test.Q2[1],test.Q2[2])?"1":"0";
 answ+=control(res.charAt(2) ,test.Q3[0],test.Q3[1],test.Q3[2])?"1":"0";
+answ+=control(res.charAt(3) ,test.Q4[0],test.Q4[1],test.Q4[2])?"1":"0";
+answ+=control(res.charAt(4) ,test.Q5[0],test.Q5[1],test.Q5[2])?"1":"0";
 
 showResult();
     }
@@ -139,10 +120,10 @@ function showResult()   {
     var i,s;
  
 for (i=0; i<answ.length;i++) {nok+=answ.charAt(i)=="1"?1:0;}
-if(nok==3) s="ОТЛИЧНО";
-if(nok<3) s="ХОРОШО";
-if(nok<2.25) s="УДОВЛЕТВОРИТЕЛЬНО";
-if (nok<1.5) s="НЕУДОВЛЕТВОРИТЕЛЬНО";
+if(nok==5) s="ОТЛИЧНО";
+if(nok<5) s="ХОРОШО";
+if(nok<3.75) s="УДОВЛЕТВОРИТЕЛЬНО";
+if (nok<2.5) s="НЕУДОВЛЕТВОРИТЕЛЬНО";
     document.test.s1.
     value="Количество правильных ответов "+nok+". Ваша оценка "+s+". Посмотрите на окно рядом с номером вопроса. Если ответ правильный, там (+). Если ответ ошибочен, там (-).";
  
@@ -151,6 +132,8 @@ with(document.test)
     if (answ.charAt(0)=="1") {T1.value=" + "} else {T1.value=" - "};
    if (answ.charAt(1)=="1") {T2.value=" + "} else {T2.value=" - "};
    if (answ.charAt(2)=="1") {T3.value=" + "} else {T3.value=" - "};
+   if (answ.charAt(3)=="1") {T4.value=" + "} else {T4.value=" - "};
+   if (answ.charAt(4)=="1") {T5.value=" + "} else {T5.value=" - "};
      }
 }
 function showhide(obj){
@@ -160,43 +143,77 @@ function showhide(obj){
 // ]]>
 </script>
 <center><b>Тест по Пожарной безопасности для сотрудников ПАО "Сбербанк"</b></center><br/><br/>
-&nbsp;&nbsp;&nbsp;
+
 </div>
-<form align="left" name="test"><ol>
-<li><INPUT type="text" size="1" value="" name="T1"/><b> К опасным факторам пожара, воздействующим на людей и имущество, относятся:</b><br/>
-<input type="radio" value="0" name="Q1"/>  пламя и искры; тепловой поток; повышенная температура окружающей среды; повышенная концентрация токсичных продуктов горения и термического разложения; пониженная концентрация кислорода; снижение видимости в дыму<br />
-<input type="radio" value="1" name="Q1"/> пламя и искры; повышенная концентрация токсичных продуктов горения и термического разложения<br />
-<input type="radio" value="2" name="Q1"/> повышенная концентрация токсичных продуктов горения и термического разложения; пониженная концентрация кислорода<br />
-<br/></li><li><INPUT type="text" size="1" value="" name="T2"/><b> Противопожарный режим это:</b><br/>
-<input type="radio" value="0" name="Q2"/> требования пожарной безопасности, устанавливающие правила поведения людей<br />
-<input type="radio" value="1" name="Q2"/> требования пожарной безопасности, устанавливающие порядок организации производства и (или) содержания территорий, зданий, сооружений, помещений организаций и других объектов в целях обеспечения пожарной безопасности<br />
-<input type="radio" value="2" name="Q2"/> требования пожарной безопасности, устанавливающие правила поведения людей,  порядок организации производства и (или) содержания территорий, зданий, сооружений, помещений организаций и других объектов в целях обеспечения пожарной безопасности<br />
-<br/></li><li><INPUT type="text" size="1" value="" name="T3"/><b> Руководитель организации обязан:</b><br/>
-<input type="radio" value="0" name="Q3"/> незамедлительно сообщать в пожарную охрану о возникших пожарах, неисправностях имеющихся систем и средств противопожарной защиты, об изменении состояния дорог и проездов<br />
-<input type="radio" value="1" name="Q3"/> незамедлительно сообщать в пожарную охрану только о возникших пожарах<br />
-<input type="radio" value="2" name="Q3"/> сообщать в пожарную охрану о возникших пожарах только в случае, если не удалось самостоятельно потушить пожар<br />
-<br/></li></ol>  
-
-
-
-
-
-
-
-
-
-
+<form name="test" style="text-align: justify;" class="mbr-text counter-container col-12 col-md-8 mbr-fonts-style display-7"><ol>
+<li><INPUT type="text" size="1" value="" name="T1"/><b> Повторный противопожарный инструктаж проводится :</b><br/>
+<input type="radio" value="0" name="Q1"/> Не реже одного раза в год , а с работниками организаций , имеющих пожароопасное производство , не реже одного раза в полугодие <br />
+<input type="radio" value="1" name="Q1"/> Не реже 1 раза в квартал со всеми работниками<br />
+<input type="radio" value="2" name="Q1"/> Не реже одного раза в год , а с работниками организаций ,  имеющих пожароопасное производство , не реже одного раза в квартал<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T2"/><b> Установлены следующие виды противопожарных инструктажей :</b><br/>
+<input type="radio" value="0" name="Q2"/> Вводный , первичный , повторный , внеплановый <br />
+<input type="radio" value="1" name="Q2"/> Вводный , первичный , повторный <br />
+<input type="radio" value="2" name="Q2"/> Вводный , первичный , повторный , внеплановый  , целевой<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T3"/><b> В общественных зданиях и сооружениях на каждом этаже размещается :</b><br/>
+<input type="radio" value="0" name="Q3"/> Не менее 4 ручных огнетушителей<br />
+<input type="radio" value="1" name="Q3"/> Не менее 2 ручных огнетушителей<br />
+<input type="radio" value="2" name="Q3"/> Не менее 1 ручного огнетушителя на каждые 100 кв.м. площади этажа<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T4"/><b> При обнаружении пожара или признаков горения в здании , помещении (задымление,запахи гари,повышение температуры воздуха и др.) необходимо :</b><br/>
+<input type="radio" value="0" name="Q4"/> Немедленно приступить к спасению материальных ценностей <br />
+<input type="radio" value="1" name="Q4"/> Немедленно приступить к тушению пожара , а пожарных вызывать в случае , если не удалось самостоятельно потушить пожар <br />
+<input type="radio" value="2" name="Q4"/> Немедленно сообщить об этом по телефону в пожарную охрану ( при этом необходимо назвать адрес объекта , место возникновения  пожара , а также сообщить свою фамилию ); принять посильные меры по эвакуации людей и тушению пожара <br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T5"/><b> Лица допускаются к работе на объекте :</b><br/>
+<input type="radio" value="0" name="Q5"/> Только после прохождения противопожарного инструктажа<br />
+<input type="radio" value="1" name="Q5"/> Возможно без прохождения противопожарного инструктажа<br />
+<input type="radio" value="2" name="Q5"/> Данный порядок устанавливает самостоятельно руководитель организации<br />
+<br/></li></ol>      
 <CENTER>
-  <span class="mbri-edit mbr-iconfont mbr-iconfont-btn" style="font-size: 15px;">
-<P><TEXTAREA name="s1" rows="4" cols="70" readonly> </TEXTAREA> </P> </span>
-
-<a onclick="check_me()"  class="btn btn-sm btn-danger display-1" > Показать результат  </a> 
- </center>     
+<P><TEXTAREA class="line" style="width: 75%;" name="s1" rows="4" cols="70" readonly> </TEXTAREA> </P>
+<INPUT onclick="check_me()" type="button" class="btn btn-sm btn-danger display-4" value="Показать результат"/> 
+<INPUT  class="btn btn-sm btn-danger display-4" type="reset" value="Сбросить ответы"/> 
+</CENTER>        
 </form> 
 
+                </h1>
+                
+                
+                
+            </div>
         </div>
     </div>
     
+</section>
+
+<section class="menu cid-qJrDm2tzf7" once="menu" id="menu2-32">
+
+    
+
+    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </button>
+        <div class="menu-logo">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="index.html">
+                        <img src="assets/images/334504-1-3179x846.jpg" alt="Mobirise" title="" style="height: 3.8rem;">
+                    </a>
+                </span>
+                
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item dropdown">
+                    <a class="nav-link link text-danger display-7" href="https://mobirise.com" aria-expanded="true"></a>
+                </li></ul>
+           
+        </div>
+    </nav>
 </section>
 
 

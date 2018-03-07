@@ -1666,13 +1666,8 @@ body {
 .cid-qJrEHJYHuX .dropdown-item:hover {
   color: #767676 !important;
 }
-.cid-qAKNFxpZVN {
-  padding-top: 75px;
-  padding-bottom: 0px;
-  background-image: url("../../../assets/images/15825676-zelenaya-poloska-b1-556x68.jpg");
-}
 .cid-qAKO4B5Shb {
-  padding-top: 60px;
+  padding-top: 120px;
   padding-bottom: 60px;
   background-color: #ffffff;
 }
@@ -1993,6 +1988,65 @@ body {
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
 }
+.cid-qLAYRwz2t5 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-qLAYRwz2t5 .line {
+  background-color: #e49a2b;
+  color: #e49a2b;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-qLAYRwz2t5 .section-text {
+  padding: 2rem 0;
+}
+.cid-qLAYRwz2t5 .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-qLAYRwz2t5 .inner-container {
+    width: 100% !important;
+  }
+}
+.cid-qLAYUURlXA {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #ffffff;
+}
+.cid-qLAYUURlXA .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-qLAYUURlXA .video-block {
+    width: 100% !important;
+  }
+}
+.cid-qKKRJl9Xjs {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-qKKRJl9Xjs .line {
+  background-color: #e49a2b;
+  color: #e49a2b;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-qKKRJl9Xjs .section-text {
+  padding: 2rem 0;
+}
+.cid-qKKRJl9Xjs .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-qKKRJl9Xjs .inner-container {
+    width: 100% !important;
+  }
+}
 .cid-qALlhMCtqU {
   padding-top: 75px;
   padding-bottom: 60px;
@@ -2035,6 +2089,32 @@ body {
 .cid-qALlhMCtqU .mbr-text {
   text-align: left;
 }
+.cid-qALlhMCtqU .mbr-text LI {
+  color: #333333;
+}
+.cid-qKKSLDEWAr {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-qKKSLDEWAr .line {
+  background-color: #e49a2b;
+  color: #e49a2b;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-qKKSLDEWAr .section-text {
+  padding: 2rem 0;
+}
+.cid-qKKSLDEWAr .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-qKKSLDEWAr .inner-container {
+    width: 100% !important;
+  }
+}
 .cid-qALlUc7Dlr {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -2052,6 +2132,30 @@ body {
 }
 .cid-qALlUc7Dlr .mbr-text {
   color: #232323;
+  text-align: left;
+}
+.cid-qKKSVSZmzQ {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-qKKSVSZmzQ .line {
+  background-color: #e49a2b;
+  color: #e49a2b;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-qKKSVSZmzQ .section-text {
+  padding: 2rem 0;
+}
+.cid-qKKSVSZmzQ .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-qKKSVSZmzQ .inner-container {
+    width: 100% !important;
+  }
 }
 .cid-qALlUy3Jo7 {
   padding-top: 60px;
@@ -2070,6 +2174,29 @@ body {
 }
 .cid-qALlUy3Jo7 .mbr-text {
   color: #232323;
+}
+.cid-qKLbQmYSrB {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-qKLbQmYSrB .line {
+  background-color: #e49a2b;
+  color: #e49a2b;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-qKLbQmYSrB .section-text {
+  padding: 2rem 0;
+}
+.cid-qKLbQmYSrB .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-qKLbQmYSrB .inner-container {
+    width: 100% !important;
+  }
 }
 .cid-qALosi5Ekr {
   padding-top: 90px;
@@ -2141,6 +2268,95 @@ body {
 @media (max-width: 300px) {
   .cid-qALosi5Ekr .card-img span {
     font-size: 40px !important;
+  }
+}
+.cid-qALosi5Ekr .mbr-text {
+  color: #767676;
+  text-align: left;
+}
+.cid-qKL9dntQUO {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-qKL9dntQUO .mbr-slider .carousel-control {
+  background: #1b1b1b;
+}
+.cid-qKL9dntQUO .mbr-slider .carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-qKL9dntQUO .mbr-slider .carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+.cid-qKL9dntQUO .mbr-slider .modal-body .close {
+  background: #1b1b1b;
+}
+.cid-qKL9dntQUO .mbr-gallery-item > div::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  background: linear-gradient(to left, #ffffff, #333333) !important;
+  opacity: 0;
+  -webkit-transition: 0.2s opacity ease-in-out;
+  transition: 0.2s opacity ease-in-out;
+}
+.cid-qKL9dntQUO .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+  background: transparent !important;
+}
+.cid-qKL9dntQUO .mbr-gallery-item > div:hover:before {
+  opacity: 0.7 !important;
+}
+.cid-qKL9dntQUO .mbr-gallery-title {
+  font-size: .9em;
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+  color: #fff;
+  z-index: 2;
+}
+.cid-qKL9dntQUO .mbr-gallery-title:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  background: #ffffff !important;
+  background: linear-gradient(to left, #ffffff, #333333) !important;
+  opacity: 0.7;
+  -webkit-transition: 0.2s background ease-in-out;
+  transition: 0.2s background ease-in-out;
+}
+.cid-qKLcvqklSL {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-qKLcvqklSL .line {
+  background-color: #e49a2b;
+  color: #e49a2b;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-qKLcvqklSL .section-text {
+  padding: 2rem 0;
+}
+.cid-qKLcvqklSL .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-qKLcvqklSL .inner-container {
+    width: 100% !important;
   }
 }
 .cid-qALrOSYzI8 {
@@ -2239,9 +2455,12 @@ body {
 .cid-qALtzAyZSa .mbr-text P {
   color: #232323;
 }
+.cid-qALtzAyZSa .mbr-text DIV {
+  color: #232323;
+}
 .cid-qALtA6IO3P {
   padding-top: 15px;
-  padding-bottom: 0px;
+  padding-bottom: 120px;
   background-color: #ffffff;
 }
 .cid-qALtA6IO3P .counter-container {
@@ -2256,8 +2475,31 @@ body {
 .cid-qALtA6IO3P .mbr-text UL {
   color: #232323;
 }
+.cid-qKKQg8BbXD {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-qKKQg8BbXD .line {
+  background-color: #e49a2b;
+  color: #e49a2b;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-qKKQg8BbXD .section-text {
+  padding: 2rem 0;
+}
+.cid-qKKQg8BbXD .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-qKKQg8BbXD .inner-container {
+    width: 100% !important;
+  }
+}
 .cid-qALutFf0pN {
-  padding-top: 30px;
+  padding-top: 0px;
   padding-bottom: 90px;
   background-color: #ffffff;
 }
@@ -2334,26 +2576,26 @@ body {
 .cid-qALutFf0pN .mbr-crt-title {
   text-align: left;
 }
-.cid-qALA4Wo0rl {
+.cid-qKKQ0ERzHl {
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: #ffffff;
 }
-.cid-qALA4Wo0rl .line {
+.cid-qKKQ0ERzHl .line {
   background-color: #e49a2b;
   color: #e49a2b;
   align: center;
   height: 2px;
   margin: 0 auto;
 }
-.cid-qALA4Wo0rl .section-text {
+.cid-qKKQ0ERzHl .section-text {
   padding: 2rem 0;
 }
-.cid-qALA4Wo0rl .inner-container {
+.cid-qKKQ0ERzHl .inner-container {
   margin: 0 auto;
 }
 @media (max-width: 768px) {
-  .cid-qALA4Wo0rl .inner-container {
+  .cid-qKKQ0ERzHl .inner-container {
     width: 100% !important;
   }
 }
@@ -2369,6 +2611,11 @@ body {
   .cid-qALTLQuxUO .video-block {
     width: 100% !important;
   }
+}
+.cid-qAKNFxpZVN {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-image: url("../../../assets/images/15825676-zelenaya-poloska-b1-556x68.jpg");
 }
 .cid-qC5crQoBzf {
   padding-top: 75px;
